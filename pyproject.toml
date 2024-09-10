@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nekobitebot"
+version = "0.1.0"
+description = "\"Bite your friends with neko bot :3\""
+authors = ["@daniyarsus <https://github.com/daniyarsus"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.13.0"
+redis = "^5.0.8"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
